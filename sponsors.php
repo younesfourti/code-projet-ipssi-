@@ -5,32 +5,9 @@
 	<Title>
 		IPSSI PARIS SPORT
 	</Title>
+	<link rel="stylesheet" type="text/css" href="css\sponsors.css" />
 </head>
-<style>
 
-	body{
-		width: 100%;
-		background-color: #E8E8E8;
-		margin: 0;
-        padding: 0;
-	}
-	#container {
-		margin-top: 120px;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-	}
-	.titre {
-		margin-top: 80px;
-		text-align: center;
-	}
-	.para {
-		margin-top: 20px;
-		text-align: center;
-		font-size: 24px; font-family: Helvetica;
-		color : black;
-	}
-</style>
 <body>
 			<?php include("code_header.php");?>
 	<div id ="container">

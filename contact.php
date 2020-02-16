@@ -6,50 +6,9 @@
   <Title>
     IPSSI PARIS SPORT
   </Title>
+  <link rel="stylesheet" type="text/css" href="css\contact.css" />
 </head>
-<style>
-  body {
-    background-color: #E8E8E8;
-    margin: 0;
-        padding: 0;
-  }
 
-  input[type=text],
-  select,
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical
-  }
-
-
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-
-
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin-top: 81px;
-  }
-</style>
 
 <body>
   <?php include("code_header.php"); ?>

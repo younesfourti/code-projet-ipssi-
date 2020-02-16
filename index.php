@@ -14,67 +14,10 @@
       <script src="https://kit.fontawesome.com/d32bce849a.js" crossorigin="anonymous"></script>
       <!-- .Font -->
    </head>
-<style>
-	body{
-		background-color: #E8E8E8;
-	}
-	#feed{
-		width: 70%;
-		margin-left: auto;
-		margin-right:auto;
 
-	}
-	.h1{
-		font-family: Helvetica;
-		color : black;
-		text-align: center;	
-	}
-    .view 
-	{
-        position: relative;
-        width: 300px;
-        height: 300px;            
-		border: 1px solid rgb(0, 0, 0);
-            /*La propriété CSS overflow est une propriété raccourcie qui définit comment gérer le dépassement du contenu d'un élément dans son bloc. 
-            Elle définit les valeurs des propriétés overflow-x et overflow-y.*/
-        overflow: hidden;
-            /*Pour caché l'élément ".mask" qui contient la description de l'article */
-        float: left;
-        margin: 5px;
-    }
-    .view img 
-	{
-        width: 300px;
-        height: 300px;
-    }
-	.mask 
-	{
-        position: absolute;
-        left: 0;
-        top: 300px;            /*Pour positionner l'élément ".mask" au dessous de l'article */
-        background: rgba(0, 0, 0, 0.8);
-        color: white;
-        text-align: center;            width: 300px;
-        height: 300px;
-        /* transition sur la propriété top qui change de 200px à 0 pendant le hover  */
-        transition: top 0.40s linear;        
-	}
+	<link rel="stylesheet" type="text/css" href="css\index.css" />
 
-    .mask a {
-        text-decoration: none;            color: white;
-        font-size: 1.5em;
-        font-family: Helvetica, sans-serif;
-        background: #000;            padding: 5px 10px 5px 10px;
-        border-radius: 5px;
 
-    }
-	/* changement de la position du ".mask" pendant le survol sur .view */
-	.view:hover>.mask 
-	{
-        top: 0;
-    }
-
-</style>
 <body>
 <?php include("code_header.php");?>
 			<br>
